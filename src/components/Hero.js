@@ -7,7 +7,7 @@ class Hero extends Component{
             <div id="hero" className="Hero" style={{backgroundImage: 'url(https://images.alphacoders.com/633/633643.jpg)'}}>
                 <div className="content">
                     <img className="logo" src="http://www.returndates.com/backgrounds/narcos.logo.png" alt="narcos background" />
-                    <h2>Seasoon 3 available now</h2>
+                    <h2>Season 3 available now</h2>
                     <p>Narcos is probably the most intense and gritty TV show on the box right now. Not just because everyone’s up to the eyeballs in cocaine, 
                         but for it’s lightning-speed editing, witty characters and furious action sequences
                     </p>
