@@ -3,6 +3,7 @@ import TitleList from './TitleList';
 import Navigation from './Navigation';
 import UserProfile from './UserProfile';
 import Hero from './Hero';
+import Logo from './Logo';
 
 
 export default class App extends Component {
@@ -34,8 +35,7 @@ export default class App extends Component {
     return (
       <div>
         <header className="header">
-          
-
+          <Logo />
           <Navigation />
           <div id="search" className="Search">
             <input 
