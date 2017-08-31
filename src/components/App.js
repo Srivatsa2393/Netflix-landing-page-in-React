@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TitleList from './TitleList';
 import Navigation from './Navigation';
+import UserProfile from './UserProfile';
 
 
 export default class App extends Component {
@@ -44,6 +45,7 @@ export default class App extends Component {
               onKeyUp={this.handleKeyUp}
             /> 
           </div>
+          <UserProfile />
         </header>
 
         <TitleList title="Search Results" url={this.state.searchUrl} />
