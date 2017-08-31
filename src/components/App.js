@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TitleList from './TitleList';
 import Navigation from './Navigation';
 import UserProfile from './UserProfile';
+import Hero from './Hero';
 
 
 export default class App extends Component {
@@ -47,7 +48,7 @@ export default class App extends Component {
           </div>
           <UserProfile />
         </header>
-
+        <Hero />
         <TitleList title="Search Results" url={this.state.searchUrl} />
         <TitleList title="Top TV picks for Sri" url='discover/tv?sort_by=popularity.desc&page=1' />
         <TitleList title="Trending now" url='discover/movie?sort_by=popularity.desc&page=1' />

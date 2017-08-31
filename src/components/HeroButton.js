@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export const = () => {
-    return(
-        <a href="#" className="Button" data-primary={this.props.primary}>{this.props.text}</a>
-    );
-};
+export default class HeroButton extends Component{
+    render() {
+        return(
+            <a href="#" className="Button" data-primary={this.props.primary}>{this.props.text}</a>
+        );
+    }
+}
