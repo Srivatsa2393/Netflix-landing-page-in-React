@@ -38,9 +38,27 @@ class TitleList extends Component{
     }
 
     render() {
+
+        let titles = '';
+        if (this.state.data.results){
+            titles = this.state.data.results.map((title, i) => {
+                if(i < 5){
+                    let name = '';
+                    let backDrop = 
+                }
+            })
+        }
+
+
+
         return(
-            <div>
-                TitleList
+            <div className="TitleList" data-loaded={this.state.mounted} ref="titlecategory">
+                <div className="Title">
+                    <h1>{this.props.title}</h1>
+                    <div className="titles-wrapper">
+                        {titles}
+                    </div>
+                </div>
             </div>
         );
     }
