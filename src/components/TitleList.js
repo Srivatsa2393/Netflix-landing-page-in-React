@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import TitleListItem from './TitleListItem';
+
 class TitleList extends Component{
 
     constructor(props){

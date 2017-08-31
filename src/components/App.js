@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TitleList from './TitleList';
+import Navigation from './Navigation';
 
 
 export default class App extends Component {
@@ -31,7 +32,9 @@ export default class App extends Component {
     return (
       <div>
         <header className="header">
-          Netflix
+          
+
+          <Navigation />
           <div id="search" className="Search">
             <input 
               type="search" 
