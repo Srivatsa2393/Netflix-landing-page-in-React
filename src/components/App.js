@@ -4,6 +4,8 @@ import Navigation from './Navigation';
 import UserProfile from './UserProfile';
 import Hero from './Hero';
 import Logo from './Logo';
+import './App.css';
+
 
 
 export default class App extends Component {

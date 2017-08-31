@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+body {
+  background: #221f1f;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+h2, .TitleList .Title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+
+.Header {
+    background: -moz-linear-gradient(top, black 0%, transparent 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, black 0%, transparent 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, black 0%, transparent 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+    /* IE6-9 */
+    display: flex;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    z-index: 5;
+  }
